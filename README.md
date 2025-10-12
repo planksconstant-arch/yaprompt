@@ -4,7 +4,6 @@
 </div>
 
 # Run and deploy your vs code
-state of the art reinforced learnig integrated along with a prompt optimizer improves responses over time 
 <img width="869" height="567" alt="image" src="https://github.com/user-attachments/assets/eff9568a-6b31-4cdc-b9af-6a49e0f67615" />
  benchmarks tested 
  <img width="714" height="419" alt="image" src="https://github.com/user-attachments/assets/a27c1913-375d-4b1d-b69a-a2e7d7fc8dea" />
