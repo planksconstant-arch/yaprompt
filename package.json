@@ -1,5 +1,5 @@
 {
-  "name": "yaprompt---ai-prompt-engineering-studio",
+  "name": "yaprompt-studio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,7 +12,8 @@
     "react-dom": "^19.2.0",
     "@google/genai": "^1.24.0",
     "react": "^19.2.0",
-    "lucide-react": "^0.417.0"
+    "lucide-react": "^0.417.0",
+    "recharts": "^2.12.7"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",

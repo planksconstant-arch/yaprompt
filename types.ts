@@ -20,7 +20,14 @@ export interface Critique {
   efficiency: number;
 }
 
-export type AppState = 'idle' | 'loading' | 'success' | 'error';
+export type AppState = 
+  | 'idle' 
+  | 'stage1_running' 
+  | 'stage1_paused'
+  | 'stage1_complete' 
+  | 'stage2_running' 
+  | 'stage2_complete' 
+  | 'error';
 
 export interface Stage1Result {
   reasoning: string;
@@ -36,4 +43,30 @@ export interface Stage2Result {
 export interface FullResult {
   stage1: Stage1Result;
   stage2: Stage2Result;
+}
+
+export interface Log {
+    timestamp: string;
+    message: string;
+}
+
+export interface RLInsights {
+  avgReward?: number;
+  epsilon?: number;
+  episodeCount?: number;
+  bestActions?: { [key: string]: string };
+  historyLength?: number;
+}
+
+export interface PopulationMember {
+  prompt: string;
+  fitness: number;
+  age: number;
+  mutations: number;
+}
+
+export interface OptimizationHistoryEntry {
+  generation: number;
+  bestFitness: number;
+  avgFitness: number;
 }
