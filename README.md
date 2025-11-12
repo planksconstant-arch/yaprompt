@@ -12,7 +12,7 @@ working on user s experience no database with just you to use to neon to link th
 
 <img width="1428" height="838" alt="Screenshot 2025-10-12 214913" src="https://github.com/user-attachments/assets/de1e9e63-55c3-47d6-90fb-d35610d463fc" />
 
-docker would be integrated with this can be only be ran locally it dosent support mobile application(would be there soon working on the fluter application for this ) the ui is not the same in the image and keeps updating. coming to the rl framework its still in the intial stages as it has to adapt the a large user dataset .any pull requests are allowed espically it would help if someone improves the rl framework for the better good the reward system can be bettyer and we are working towards it .
+docker would be integrated with this can be only be ran locally it dosent support mobile application(would be there soon working on the fluter application for this ) the ui is not the same in the image and keeps updating. coming to the rl framework its still in the intial stages as it has to adapt the a large user dataset .any pull requests are allowed espically it would help if someone improves the rl framework for the better good the reward system can be better and we are working towards it .
 
 
 
